@@ -17,6 +17,12 @@ const {
     } = require('@whiskeysockets/baileys'), fs = require('fs'), P = require('pino');
 var os = require('os');
 const farrkey = require('xfarr-api'), X = require('./settings.js');
+for (var key in _0x49e4e8) {
+    if (_0x49e4e8.hasOwnProperty(key)) {
+        // Access _0x49e4e8[key] to get the value associated with the key
+    }
+}
+
 ;
 var config = require('./settings');
 const fonts = require('./lib/font.js'), moment = require('moment-timezone'), qrcode = require('qrcode-terminal'), NodeCache = require('node-cache'), util = require('util'), {Boom} = require('@hapi/boom'), {imageToWebp, videoToWebp, writeExifImg, writeExifVid} = require('./lib/exif'), {addPremiumUser, getPremiumExpired, getPremiumPosition, expiredPremiumCheck, checkPremiumUser, getAllPremiumUser} = require('./lib/premium'), {getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson, jsonformat, clockString, fetchBuffer, getFile} = require('./lib/functions'), {pinterest, wallpaper, wikimedia, quotesAnime, aiovideodl, umma, ringtone, styletext, sync, updatedb, syncgit} = require('./lib/scraper'), {sms, downloadMediaMessage} = require('./lib/msg');
